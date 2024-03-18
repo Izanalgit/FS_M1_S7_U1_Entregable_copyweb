@@ -1,0 +1,143 @@
+/* PRESETS */
+body *{
+    font-family: "Poppins";
+}
+/* Barra gradiente */
+.barra{
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+/*         ---             Barra de navegación                 ---      */
+/* LINKS */
+#navlinks ul{
+    display: flex;
+    justify-content: flex-start;
+    
+    margin: 0;
+    padding:1% 2% ;
+
+}
+#navlinks ul li{
+    list-style: none;
+    padding: 1.2% 2%;
+
+    font-size: large; 
+}
+/* SEARCH */
+#navsearch{
+    display: flex;
+    justify-content: space-around;
+
+    border-top: 1px solid grey;
+
+    padding: 1.5% 2%;
+
+    font-size: large; 
+    height: 2.5em;
+}
+#navsearch *{
+    height: 100%;
+}
+#navsearch img{
+    width: 7%;
+}
+#navsearch form{
+    width: 65%;
+    display: flex;
+
+    background-color: lightgrey;
+}
+#navsearch form img {
+    width: 3%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+}
+#navsearch input{
+    width: 80%;
+    background-color: lightgrey;
+    border: 0;
+}
+/* BUTTONS */
+#searchbutn{
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+    width: 20%;
+}
+#signupbtn{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 0;
+
+    padding: 1% 2.5%;
+}
+#signinbtn{
+    background-color: white;
+    border: 0;
+    border-radius: 0;
+
+    padding: 1% 2.5%;
+}
+
+/*           ---               Contenido principal            ---         */
+/* PRIMERA SECCION */
+section:nth-child(1){
+    background-image: url("./../assets/img/backgoundcolours.png");
+
+    height: fit-content;
+    width: auto;
+
+    margin: 0;
+    padding: 5% 20%;
+
+    font-size:medium;
+    color: white;
+
+    text-align: center; 
+
+}
+
+section:nth-child(1) h1{
+    font-size:450%;
+}
+section:nth-child(1) div{
+    display: flex;
+    justify-content: center;
+}
+section:nth-child(1) div *{
+    margin: 2%;
+}
+/* BUTTONS SECTION */
+#signfreebtn{
+    background-color: gold;
+    border: 0;
+    border-radius: 50px;
+
+    font-weight: bold;
+
+    height: 3em;
+    width: 30%;
+
+}
+#learnprobtn{
+    background-color: #cb3837;
+    border: 2px solid white;
+    border-radius: 50px;
+
+    color: white;
+    font-weight: bold;
+
+    height: 3.3em;
+    width: 33%;
+}
+
+/* SEGUNDA SECCION */
+section:nth-child(2){
+
+
+}
+
