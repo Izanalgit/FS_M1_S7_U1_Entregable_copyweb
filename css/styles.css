@@ -2,6 +2,10 @@
 body *{
     font-family: "Poppins";
 }
+a{
+    color:inherit;
+    text-decoration: none;
+}
 /* Barra gradiente */
 .barra{
     border-width: 10px 0 0;
@@ -10,7 +14,7 @@ body *{
 }
 
 /*         ---             Barra de navegación                 ---      */
-/* LINKS */
+/*   --    LINKS   --   */
 #navlinks ul{
     display: flex;
     justify-content: flex-start;
@@ -25,7 +29,7 @@ body *{
 
     font-size: large; 
 }
-/* SEARCH */
+/*   --    SEARCH    --  */
 #navsearch{
     display: flex;
     justify-content: space-around;
@@ -52,15 +56,15 @@ body *{
 #navsearch form img {
     width: 3%;
     height: auto;
-    margin: auto;
-    padding: 2%;
+    margin: 0 auto;
+    padding: 1.4%;
 }
 #navsearch input{
     width: 80%;
     background-color: lightgrey;
     border: 0;
 }
-/* BUTTONS */
+/*   --  BUTTONS   --  */
 #searchbutn{
     color: white;
     background-color: black;
@@ -84,23 +88,23 @@ body *{
 }
 
 /*           ---               Contenido principal            ---         */
-/* PRIMERA SECCION */
-section:nth-child(1){
-    background-image: url("./../assets/img/backgoundcolours.png");
-
+section{
     height: fit-content;
     width: auto;
 
     margin: 0;
-    padding: 5% 20%;
+    padding: 5% 30%;
+
+    text-align: center; 
+}
+/*   --  PRIMERA SECCION   --  */
+section:nth-child(1){
+    background-image: url("./../assets/img/backgoundcolours.png");
 
     font-size:medium;
     color: white;
-
-    text-align: center; 
-
 }
-
+/* REAJUSTE TITULO PRINCIPAL */
 section:nth-child(1) h1{
     font-size:450%;
 }
@@ -111,7 +115,7 @@ section:nth-child(1) div{
 section:nth-child(1) div *{
     margin: 2%;
 }
-/* BUTTONS SECTION */
+/*   -  BUTTONS SECTION  -   */
 #signfreebtn{
     background-color: gold;
     border: 0;
@@ -135,9 +139,59 @@ section:nth-child(1) div *{
     width: 33%;
 }
 
-/* SEGUNDA SECCION */
-section:nth-child(2){
+/*     --   SEGUNDA SECCION    --   */
 
+/* section:nth-child(2){
+->segunda seccion generico
+} */
 
+section:nth-child(2) img{
+    width: 12%;
+    height: auto;
+    margin: auto;
 }
 
+
+ /*         ---                 FOOTER                   ---          */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding:5% 10%;
+
+    
+}
+/*   --    GITHUB REPOS    --   */
+#githublogos{
+    width: 4%;
+}
+#githublogos a{
+    display: flex;
+    flex-direction: column; 
+}
+#githublogos a img{
+    margin-bottom: 30%;
+}
+/*   --        LINKS         --    */
+footer ul{
+    margin: 0 auto;
+}
+/* REAJUSTE LOGOS-LISTA */
+footer ul:first-of-type{
+    margin-left: 4%;
+    padding: 0;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 10%;
+}
+/* REAJUSTE TITULOS DE LISTA */
+footer li:first-of-type{
+    font-size: large;
+    margin-bottom: 15%;
+}
+
+ /*        ---                    Efectos Generales               ---      */
+ .travolta:hover{
+    color: grey;
+ }
