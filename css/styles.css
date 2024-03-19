@@ -99,7 +99,7 @@ section{
 }
 /*   --  PRIMERA SECCION   --  */
 section:nth-child(1){
-    background-image: url("./../assets/img/backgoundcolours.png");
+    background-image: url("./assets/img/backgoundcolours.png");
 
     font-size:medium;
     color: white;
